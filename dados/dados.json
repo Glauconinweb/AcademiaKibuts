@@ -1,0 +1,18 @@
+{
+  "alunos": [
+    {
+      "nome": "Carlos Silva",
+      "idade": 25,
+      "telefone": "98999-8888",
+      "plano": "60 reais - 5 dias"
+    },
+    {
+      "nome": "Ana Lima",
+      "idade": 30,
+      "telefone": "98988-7777",
+      "plano": "70 reais - 6 dias"
+    }
+  ],
+  "mensalidades": [],
+  "presencas": []
+}

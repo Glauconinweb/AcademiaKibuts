@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de Alunos</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" href="img/kbz.jpg" type="image/jpeg" />
+  </head>
+  <body>
+    <main class="conteiner">
+      <div class="titulo">
+        <h1>Academia Kibutz Fitnes</h1>
+      </div>
+      <div class="navbar">
+        <a href="index.html" class="botao">Pagina Inicial</a>
+        <a href="mensalidade.html" class="botao">Mensalidade</a>
+        <a href="presensa.html">Presensa</a>
+      </div>
+      <div class="formulario">
+        <h2>Cadastro de Alunos</h2>
+        <form id="formCadastro">
+          <label for="">Nome Completo</label>
+          <input
+            type="text"
+            name=""
+            id="nome"
+            placeholder="O nome do aluno Aqui"
+          />
+          <label for="">Idade</label>
+          <input
+            type="number"
+            name=""
+            id="idade"
+            placeholder="Idade somente numeros"
+          />
+          <label for="">Telefone Para Contato</label>
+          <input type="text" name="" id="telefone" placeholder="Telefone" />
+          <label for="">Planos de Mensalidade</label>
+          <select class="planos" name="" id="plano">
+            <option value="1">50 reais 4 dias</option>
+            <option value="2">60 reais 5 dias</option>
+            <option value="3">70 reais 6 dias</option>
+          </select>
+          <button type="submit" class="botao-enviar">Cadastrar Aluno</button>
+        </form>
+      </div>
+      <div>
+        <h2>Lista de Alunos</h2>
+        <table border="1" id="tabelaAlunos">
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Idade</th>
+              <th>Plano</th>
+              <th>Telefone</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </main>
+    <script src="js/alunos.js"></script>
+  </body>
+</html>
